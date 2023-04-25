@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3"
+      crossorigin="anonymous"
+    />
+    <style>
+      body {
+        height: 100%;
+        margin: 0px !important;
+        font-family: "Josefin Sans";
+      }
+      html {
+        height: 100%;
+      }
+      main {
+        height: 100%;
+      }
+      .main__first-row {
+        height: 60px;
+        position: relative;
+        top: 10px !important;
+
+        /* box-sizing: border-box; */
+      }
+      .main__first-row--logo {
+        height: 100%;
+
+        /* box-sizing: border-box; */
+      }
+
+      a {
+        padding: 10px 15px;
+        background-color: #dd6b20;
+        color: white;
+        font-weight: 700;
+        border-radius: 20px;
+        border: 1px solid white;
+        font-family: "Josefin Sans";
+        text-decoration: none;
+        margin: auto !important;
+        position: relative;
+        left: 20px;
+      }
+      #bg-video {
+        width: 100%;
+        height: 100%;
+        position: relative;
+        right: 20px;
+      }
+      img {
+        height: 100%;
+        max-width: 100%;
+        position: relative;
+        left: 20px;
+      }
+      h2 {
+        text-align: center;
+        font-family: "Josefin Sans";
+      }
+      h1 {
+        text-align: center;
+        background: linear-gradient(180deg, #00d2ff 24.38%, #3a7bd5 78.75%);
+        background-clip: text;
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+      }
+      .main__video {
+        height: calc(100% - 250px);
+      }
+      .main__second-row {
+        position: relative;
+        top: 10px;
+      }
+      .main__third-row {
+        position: relative;
+        top: 10px;
+      }
+      .main__footer--contact {
+        display: flex;
+        justify-content: center !important;
+        column-gap: 10px;
+        text-align: center;
+        position: relative;
+        bottom: 0px !important;
+      }
+      span {
+        background: #10b981;
+        background-clip: text;
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        font-weight: 700;
+      }
+
+      .main__first-row--button {
+        position: relative;
+        top: 10px;
+      }
+    </style>
+  </head>
+  <body>
+    <main>
+      <div class="main__first-row row g-0">
+        <div class="col main__first-row--logo">
+          <img src="./images/EduateLogo.svg" alt="/" />
+        </div>
+        <div class="col-1 main__first-row--button">
+          <a href="https://edu.myeduate.com" target="_blank"> Login </a>
+        </div>
+      </div>
+      <div class="row g-0 justify-content-center main__second-row">
+        <div class="col">
+          <h2>Innovation is on the Way!</h2>
+        </div>
+      </div>
+      <div class="row g-0 justify-content-center main__third-row">
+        <div class="col">
+          <h1>Get Exited For What's Coming Next</h1>
+        </div>
+      </div>
+      <div class="row g-0 main__video">
+        <div class="col-5">
+          <img src="./images/IconsImagewithPersonWorking.svg" alt="/" />
+        </div>
+        <div class="col"></div>
+        <div class="col-5">
+          <video autoplay muted loop id="bg-video">
+            <source src="./images/EduateVideo.mp4" type="video/mp4" />
+          </video>
+        </div>
+      </div>
+      <div class="row g-0">
+        <h2>Our launch is just around the corner</h2>
+      </div>
+      <div class="main__footer row g-0 justify-content-center">
+        <footer class="col main__footer--contact">
+          <span>Contact For Enquiries </span>
+          <b>Email :</b>
+          <label>info@myeduate.com</label>
+          <b>Phone :</b>
+          <label>9008001793</label>
+        </footer>
+      </div>
+    </main>
+  </body>
+</html>
